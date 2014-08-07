@@ -1,0 +1,161 @@
+[
+  {
+    "pk": 1,
+    "model": "myapp.trackingsummary",
+    "fields":
+    {
+        "total": 0,
+        "recent": 0
+    },
+    "pk": 2,
+    "model": "myapp.trackingsummary",
+    "fields":
+    {
+        "total": 0,
+        "recent": 0
+    }
+  },
+  {
+    "pk": 1,
+    "model": "myapp.resource",
+    "fields":
+    {
+      "resource_group_id": "2cb1660b-f258-446c-9729-813c5f55e14f",
+      "cache_last_updated": null,
+      "package_id": "c447002d-51df-46d9-a105-dda94dfd6083",
+      "webstore_last_updated": null,
+      "size": null,
+      "last_modified": null,
+      "hash": "",
+      "description": "",
+      "format": "CSV",
+      "tracking_summary": 1,
+      "mimetype_inner": null,
+      "mimetype": null,
+      "cache_url": null,
+      "name": "CSV ",
+      "created": "2012-05-30T18:09:43.908810",
+      "url": "http://www.fda.gov/downloads/ForIndustry/DataStandards/StructuredProductLabeling/ucm241597.zip",
+      "webstore_url": null,
+      "position": 0,
+      "resource_type": null	  
+    }
+  },
+  {
+    "pk": 1,
+    "model": "myapp.tag",
+    "fields":
+    {
+    "tag_description": "community health",
+    }
+  },
+  {
+    "pk": 2,
+    "model": "myapp.tag",
+    "fields":
+    {
+    "tag_description": "drug",
+    }
+  },
+  {
+    "pk": 3,
+    "model": "myapp.tag",
+    "fields":
+    {
+    "tag_description": "fda",
+    }
+  },
+  {
+    "pk": 4,
+    "model": "myapp.tag",
+    "fields":
+    {
+    "tag_description": "label",
+    }
+  },
+  {
+    "pk": 5,
+    "model": "myapp.tag",
+    "fields":
+    {
+    "tag_description": "label repository",
+    }
+  },
+  {
+    "pk": 6,
+    "model": "myapp.tag",
+    "fields":
+    {
+    "tag_description": "labels fda gov"
+    }
+  },
+  {
+    "pk": 1,
+    "model": "myapp.group",
+    "fields":
+    {
+    "group_id": "503f8f21-5e02-453c-9e43-e1c403d40411"
+    }
+  },  
+  {
+    "pk": 1,
+    "model": "myapp.extras",
+    "fields":
+    {
+    "coverage_period_start": "2011-01-01 00:00:00",
+    "unit_of_analysis": "drug labels",
+    "hd2_workflow_id": "307",
+    "agency": "Department of Health & Human Services",
+    "bureau_code": "009:10",
+    "geographic_granularity": "Country",
+    "technical_documentation": "http://www.fda.gov/ForIndustry/DataStandards/StructuredProductLabeling/default.htm",
+    "collection_frequency": "Daily",
+    "agency_program_url": "http://www.fda.gov/ForIndustry/DataStandards/StructuredProductLabeling/default.htm",
+    "date_updated": "2011-02-01 00:00:00",
+    "date_released": "2011-02-01 00:00:00",
+    "author_id": "http://healthdata.gov/id/agency/fda",
+    "migration_notes_json": "{\"datadotgovid1\": \"4422\", \"Coverage Period Start\": \"2011\", \"datadotgovid2\": \"g8u6-vdnb\", \"Coverage Period End\": \"ongoing\"}",
+    "subject_area_1": "Treatments"
+    }
+  },
+  {
+    "pk": 1,
+    "model": "myapp.medicaldata",
+    "fields":
+    {
+    "license_title": "License Not Specified",
+    "maintainer": null,
+    "private": false,
+    "maintainer_email": null,
+    "num_tags": 6,
+    "metadata_created": "2012-05-30T22:09:43.855645",
+    "relationships": [],
+    "license": "License Not Specified",
+    "metadata_modified": "2013-12-14T18:00:26.035047",
+    "author": "U.S. Food and Drug Administration",
+    "author_email": null,
+    "state": "active",
+    "version": null,
+    "license_id": "notspecified",
+    "type": "dataset",
+    "resources": [],
+    "num_resources": 1,
+    "tags": [],
+    "tracking_summary": 2,
+    "groups": [],
+    "organization": null,
+    "name": "drug-label-data",
+    "isopen": false,
+    "notes_rendered": "<p>This file contains the data elements used for searching the FDA Online Data Repository including proprietary name, active ingredients, marketing application number or regulatory citation, National Drug Code, and company name.\n</p>",
+    "url": "http://www.fda.gov/ForIndustry/DataStandards/StructuredProductLabeling/ucm240580.htm",
+    "ckan_url": "http://hub.healthdata.gov/dataset/drug-label-data",
+    "notes": "This file contains the data elements used for searching the FDA Online Data Repository including proprietary name, active ingredients, marketing application number or regulatory citation, National Drug Code, and company name.",
+    "owner_org": null,
+    "ratings_average": null,
+    "extras": 1,
+    "ratings_count": 0,
+    "title": "FDA Drug Label Data",
+    "revision_id": "09c3433c-24ba-40f4-899e-bc567a4bcfe4"
+    }
+  }  
+]
